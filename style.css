@@ -43,8 +43,8 @@ i, em, strong, sub, sup {font-style: italic;}
 time {font-weight: 600;}
 blockquote {
 	margin: 1rem;
-	border-top: 0.1em solid;
-	border-bottom: 0.1em solid;
+	border-top: 0.1rem solid;
+	border-bottom: 0.1rem solid;
 	padding: 0 1rem;
 	font-family: Palatino, Georgia, serif;
 	font-style: italic;
