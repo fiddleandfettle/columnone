@@ -1,0 +1,41 @@
+{
+  "jwspage": {
+    "scope": "html",
+    "prefix": "jwspage",
+    "description": "A snippet to add page sections",
+    "body": [
+      "<header>",
+      "<h1>${1:heading1}</h1>",
+      "</header>",
+      "<main>",
+      "<div class=\"\">",
+      "</div>",
+      "<div class=\"\">",
+      "</div>",
+      "</main>",
+      "<footer>",
+      "<div class=\"social_icons\">",
+      "</div>",
+      "<div class=\"contact_panel\">",
+      "</div>",
+      "<div class=\"copyrights\">",
+      "<p>Copyright &copy; <time datetime=\"2022\">2022</time> </p>",
+      "</div>",
+      "</footer>"
+    ]
+},
+    "jwsnav": {
+      "scope": "html",
+      "prefix": "jwsnav",
+      "description": "A snippet to add navigation",
+      "body": [
+        "<nav>",
+        "<ul>",
+        "<li><a href=\"${1:url}\">${2:name}</a></li>",
+        "<li><a href=\"${3:url}\" class=\"active\">${4:name}</a></li>",
+        "<li><a href=\"${5:url}\">${6:name}</a></li>",
+        "</ul>",
+        "</nav>"
+      ]
+    }
+}
